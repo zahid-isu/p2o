@@ -1,4 +1,4 @@
-# Proximal Preference Optimization: A Unified Framework for Stable and Reward-Free Alignment
+# ReadME file
 
 Benchmarking five offline preference-optimisation algorithms on GPT-2 (117M), GPT-2-medium (355M), and Llama-3.2 (1B) across three human-feedback datasets.
 
