@@ -1,4 +1,5 @@
-# P²O — Proximal Preference Optimisation
+# Proximal Preference Optimization: A Unified Framework for Stable and Reward-Free Alignment 
+**Accepted at [IEEE BigData 2026](https://bigdataieee.org/BigData2026/)** 
 
 Benchmarking five offline preference-optimisation algorithms on GPT-2 (117M) across three human-feedback datasets.
 
@@ -118,3 +119,20 @@ Evaluation is always on separate held-out splits.
 3. Add `"my_method"` to `VALID_METHODS` in `p2o/trainer.py`.
 4. Add a colour/marker/linestyle entry in `p2o/plot.py`.
 5. Run: `python scripts/train.py --methods my_method`.
+
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{liu2026proximal,
+  title     = {Proximal Preference Optimization: A Unified Framework for Stable and Reward-Free Alignment},
+  author    = {Liu, Qisai and Jiang, Zhanhing and Hasan, Md Zahid and Sarkar, Soumik},
+  booktitle = {2026 IEEE International Conference on Big Data (BigData)},
+  year      = {2026},
+  pages     = {XX--XX},
+  publisher = {IEEE},
+  doi       = {10.1109/BigData.2026.XXXXXXX}
+}
+```
